@@ -1,0 +1,3 @@
+C:\Users\ZuckerBerg\Desktop\PROJELER\1. sınıf 2.DÖNEM Projesi\11253067\11253067-ONUR YURTTÜRK OOP PROJE\TermProject\TermProject\bin\Debug\TermProject.exe.config
+C:\Users\ZuckerBerg\Desktop\PROJELER\1. sınıf 2.DÖNEM Projesi\11253067\11253067-ONUR YURTTÜRK OOP PROJE\TermProject\TermProject\obj\Debug\TermProject.exe
+C:\Users\ZuckerBerg\Desktop\PROJELER\1. sınıf 2.DÖNEM Projesi\11253067\11253067-ONUR YURTTÜRK OOP PROJE\TermProject\TermProject\obj\Debug\TermProject.pdb

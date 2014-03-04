@@ -1,0 +1,26 @@
+C:\Users\ZuckerBerg\documents\visual studio 2012\Projects\TermProject\TermProject\bin\Debug\TermProject.exe.config
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\bin\Debug\TermProject.exe
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\bin\Debug\TermProject.pdb
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.Form1.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.GunTed.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.Properties.Resources.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.SatisYap.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.TedarikEt.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.UpdateCustomer.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.YeniMusteri.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.YeniTedarikci.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.YeniUrun.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.csproj.GenerateResource.Cache
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.exe
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.pdb
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.csprojResolveAssemblyReference.cache
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.Search.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.Results.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.Deficit_Report.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.Datecs.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.SalesReport.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.SatisGuncelle.resources
+C:\Users\ZuckerBerg\Documents\Visual Studio 2012\Projects\TermProject\TermProject\obj\Debug\TermProject.TedarikGüncelle.resources
+C:\Users\ZuckerBerg\Desktop\PROJELER\1. sınıf 2.DÖNEM Projesi\11253067\11253067-ONUR YURTTÜRK OOP PROJE\TermProject\TermProject\bin\Debug\TermProject.exe.config
+C:\Users\ZuckerBerg\Desktop\PROJELER\1. sınıf 2.DÖNEM Projesi\11253067\11253067-ONUR YURTTÜRK OOP PROJE\TermProject\TermProject\obj\Debug\TermProject.exe
+C:\Users\ZuckerBerg\Desktop\PROJELER\1. sınıf 2.DÖNEM Projesi\11253067\11253067-ONUR YURTTÜRK OOP PROJE\TermProject\TermProject\obj\Debug\TermProject.pdb

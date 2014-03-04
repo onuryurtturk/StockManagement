@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0131E72B-9CC4-469A-B830-EE80370627E3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TermProject</RootNamespace>
+    <AssemblyName>TermProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datecs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Datecs.Designer.cs">
+      <DependentUpon>Datecs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbOperation.cs" />
+    <Compile Include="Deficit Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deficit Report.Designer.cs">
+      <DependentUpon>Deficit Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GunTed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GunTed.Designer.cs">
+      <DependentUpon>GunTed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Results.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Results.Designer.cs">
+      <DependentUpon>Results.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReport.Designer.cs">
+      <DependentUpon>SalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatisYap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatisYap.Designer.cs">
+      <DependentUpon>SatisYap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TedarikEt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TedarikEt.Designer.cs">
+      <DependentUpon>TedarikEt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatisGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatisGuncelle.Designer.cs">
+      <DependentUpon>SatisGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TedarikGüncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TedarikGüncelle.Designer.cs">
+      <DependentUpon>TedarikGüncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateCustomer.Designer.cs">
+      <DependentUpon>UpdateCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YeniMusteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YeniMusteri.Designer.cs">
+      <DependentUpon>YeniMusteri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YeniTedarikci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YeniTedarikci.Designer.cs">
+      <DependentUpon>YeniTedarikci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YeniUrun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YeniUrun.Designer.cs">
+      <DependentUpon>YeniUrun.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Datecs.resx">
+      <DependentUpon>Datecs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deficit Report.resx">
+      <DependentUpon>Deficit Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GunTed.resx">
+      <DependentUpon>GunTed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Results.resx">
+      <DependentUpon>Results.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReport.resx">
+      <DependentUpon>SalesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatisYap.resx">
+      <DependentUpon>SatisYap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TedarikEt.resx">
+      <DependentUpon>TedarikEt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatisGuncelle.resx">
+      <DependentUpon>SatisGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TedarikGüncelle.resx">
+      <DependentUpon>TedarikGüncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateCustomer.resx">
+      <DependentUpon>UpdateCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YeniMusteri.resx">
+      <DependentUpon>YeniMusteri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YeniTedarikci.resx">
+      <DependentUpon>YeniTedarikci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YeniUrun.resx">
+      <DependentUpon>YeniUrun.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="background.jpg" />
+    <None Include="bin\Debug\blueray_wallpaper_hd_no_logo_by_hosenfeld.jpg" />
+    <None Include="bin\Debug\FreeVector-Colorful-Boxes-Background.jpg" />
+    <None Include="bin\Debug\Abstract_Background_Wallpaper_006.jpg" />
+    <None Include="bin\Debug\background-1024x724.jpg" />
+    <None Include="bin\Debug\Simple_Background___Blue_by_kawaiifaerie.jpg" />
+    <None Include="bin\Debug\abstract_colour_background_gold.jpg" />
+    <None Include="bin\Debug\Abstractblue5.jpg" />
+    <None Include="bin\Debug\7.jpg" />
+    <None Include="bin\Debug\business2.jpg" />
+    <None Include="bin\Debug\businesspeople.jpg" />
+    <None Include="bin\Debug\menu.png" />
+    <None Include="bin\Debug\urunback.jpg" />
+    <None Include="bin\Debug\gradientback.jpg" />
+    <None Include="bin\Debug\1369222135_schedule.png" />
+    <None Include="bin\Debug\1369222129_Telephone.png" />
+    <None Include="bin\Debug\1369221984_personal.png" />
+    <None Include="bin\Debug\1369221913_84.png" />
+    <None Include="bin\Debug\1369221739_explorer.png" />
+    <None Include="bin\Debug\1369221659_Search-Male-User.png" />
+    <None Include="bin\Debug\1369221582_kde-folder-saved-search.png" />
+    <None Include="bin\Debug\1369221529_search_16.png" />
+    <None Include="bin\Debug\search2.png" />
+    <None Include="bin\Debug\search1.png" />
+    <None Include="bin\Debug\turqbutton.png" />
+    <None Include="bin\Debug\darkgreen.png" />
+    <None Include="bin\Debug\firstbutton.png" />
+    <None Include="bin\Debug\redbutton.png" />
+    <None Include="bin\Debug\buttongray.png" />
+    <None Include="bin\Debug\diff.png" />
+    <None Include="bin\Debug\grayback.png" />
+    <None Include="bin\Debug\greenback.png" />
+    <None Include="bin\Debug\redback.png" />
+    <None Include="bin\Debug\2222.png" />
+    <None Include="bin\Debug\backk..png" />
+    <None Include="bin\Debug\buttonnn.png" />
+    <None Include="bin\Debug\exit2.png" />
+    <None Include="bin\Debug\exit.png" />
+    <None Include="bin\Debug\icon2.png" />
+    <None Include="bin\Debug\icon3.png" />
+    <None Include="bin\Debug\icon1.png" />
+    <None Include="bin\Debug\tedback2.png" />
+    <None Include="bin\Debug\tedback.png" />
+    <None Include="bin\Debug\button1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
